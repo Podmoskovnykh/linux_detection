@@ -1,0 +1,9 @@
+Logged at 2023-11-15 11:08:18.908783
+1. cat /etc/os-release
+2. uname -m
+Logged at 2023-11-15 11:09:33.929665
+1. cat /etc/os-release
+2. uname -m
+Logged at 2023-11-15 11:10:24.889208
+1. cat /etc/os-release
+2. uname -m
