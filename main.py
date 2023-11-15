@@ -3,6 +3,7 @@ import psycopg2
 import tkinter as tk
 from tkinter import Entry, Label, Button, messagebox, Text
 import datetime
+import os
 
 
 def run_scanner():
@@ -61,7 +62,7 @@ def run_scanner():
         db_connection = psycopg2.connect(
             database="int_db",
             user="postgres",
-            password="124824816",
+            password=os.getenv('DB_PASSWORD'),
             host="127.0.0.1",
             port="5432"
         )
